@@ -36,7 +36,7 @@ jobs:
       - name: Build now
         run: |
           chmod +x gradlew
-          ./gradlew applyPatches
+          ./gradlew applyAllPatches
 
       - name: Compress files
         uses: edgarrc/action-7z@v1
